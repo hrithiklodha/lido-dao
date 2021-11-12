@@ -11,6 +11,11 @@ To complete the assignment, fork this repo, make changes there, and then add Git
 
 <hr/>
 
+## Assignment Solution
+
+
+
+<hr/>
 # Lido Ethereum Liquid Staking Protocol
 
 [![Tests](https://github.com/lidofinance/lido-dao/workflows/Tests/badge.svg)](https://github.com/lidofinance/lido-dao/actions)
