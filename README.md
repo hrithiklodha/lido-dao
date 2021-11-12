@@ -13,13 +13,14 @@ To complete the assignment, fork this repo, make changes there, and then add Git
 
 ## Assignment Solution
 
+contract deployed at ``` 0x65Aa98A1F0200C84c199256Aa48b8eA4Acf7a612 ```
 ####steps to run locally-
-```npm install truffle
+``` npm install truffle
 add private key in truffle-config.js
 truffle test ./test/local/local_test.js
 truffle test ./test/test.js --network gorli
 
-truffle migrate --network gorli
+truffle migrate --network gorli 
 ```
 
 <hr/>
