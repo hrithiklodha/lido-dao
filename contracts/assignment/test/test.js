@@ -14,11 +14,11 @@ require('chai').use(require('chai-as-promised')).should();
 contract("Testing the Lido staker", ([admin]) => {
 	
 	/*
-	 * The address of the Lido contract 0x65Aa98A1F0200C84c199256Aa48b8eA4Acf7a612
+	 * The address of the Lido contract 0x278b194f849858a5537D69f869Df56e72413a877
 	 */
 	before(async () => {
-		LidoStaker = await LidoStaker.new("0x65Aa98A1F0200C84c199256Aa48b8eA4Acf7a612");
-		lido = await Steth.at("0x65Aa98A1F0200C84c199256Aa48b8eA4Acf7a612");
+		LidoStaker = await LidoStaker.new("0x278b194f849858a5537D69f869Df56e72413a877");
+		lido = await Steth.at("0x278b194f849858a5537D69f869Df56e72413a877");
 	})
 	
 	it("A user can deposit Eth using the LidoStaker", async () => {

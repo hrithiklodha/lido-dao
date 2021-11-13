@@ -4,7 +4,7 @@ module.exports = async function(deployer) {
 	
 		
 	// The address for the Lido smart contract token
-	let lido_address = "0x65Aa98A1F0200C84c199256Aa48b8eA4Acf7a612";
+	let lido_address = "0x278b194f849858a5537D69f869Df56e72413a877";
 	
 	/* 
 	 * We deploy the LidoStaker contract with the Lido smart contract address from the gorli testnet
